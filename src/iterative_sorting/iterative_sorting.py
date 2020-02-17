@@ -15,6 +15,12 @@ def selection_sort( arr ):
 
 # TO-DO:  implement the Bubble Sort function below
 def bubble_sort( arr ):
+    ''' Highly Optimized Code From Lecture '''
+    for i in range(len(arr)):
+        for j in range(0, n-i-1):
+            print(arr)
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
 
     return arr
 
